@@ -13,25 +13,25 @@ namespace Bibliotec_MVC_DEV.Models
 
         [Required] //Obrigatória
         [StringLength(20)] // Tamanho da String
-        public String Matricula { get; set; } =null!;
+        public string Matricula { get; set; } =null!;
 
         public bool Ativo { get; set; }
 
         [Required]
         [StringLength(100)]
-        public String Nome { get; set; } =null!;
+        public string Nome { get; set; } =null!;
 
         [Required]
         [StringLength(100)]
-        public String Email { get; set; } = null!;
+        public string Email { get; set; } = null!;
 
         [Required]
         [StringLength(50)]
-        public String Senha { get; set; } = null!;
+        public string Senha { get; set; } = null!;
 
         [Required]
         [StringLength(50)]
-        public String NumCel { get; set; } = null!;
+        public string NumCel { get; set; } = null!;
 
         public bool TipoBib { get; set; } // 0 - Aluno / 1 - Bibliotecária
 
